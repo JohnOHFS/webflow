@@ -1,0 +1,33 @@
+<svg width="2000px" height="807px" viewBox="650 2 1440 807" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="18.4268546%" y1="43.0674001%" x2="82.7977891%" y2="58.5936469%" id="linearGradient-1">
+            <stop stop-color="#1E87F0" offset="0%"></stop>
+            <stop stop-color="#1E3E5C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.4268546%" y1="43.1689854%" x2="82.7977891%" y2="58.4677218%" id="linearGradient-2">
+            <stop stop-color="#1E87F0" offset="0%"></stop>
+            <stop stop-color="#1E3E5C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.57317004,15.7999936 L2.15100721,819.366633 C600.241661,860.919994 1059.43241,794.683198 1379.72325,620.656245 C1662.43116,467.049615 1775.89483,527.683301 2051.90446,531.228148 C2327.91408,534.772995 2688.85907,684.094916 2908.22752,783.962916 C3054.47315,850.541583 2941.20334,594.487275 2568.41809,15.7999936 L1.57317004,15.7999936 Z" id="path-3"></path>
+        <linearGradient x1="10.0537047%" y1="43.1773858%" x2="117.215768%" y2="67.7326837%" id="linearGradient-5">
+            <stop stop-color="#1E87F0" offset="0%"></stop>
+            <stop stop-color="#1E3E5C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M21.4668984,27 L12.3030499,737.285212 C284.346229,770.654318 546.279486,775.140482 798.102822,750.743705 C1378.45434,694.518943 1557.99931,535.915834 2055.85453,535.901355 C2387.75802,535.891702 2669.90605,598.686321 2902.29865,724.285212 L2609.92715,27 L21.4668984,27 Z" id="path-6"></path>
+    </defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page---v2">
+            <g id="Bitmap" transform="translate(-11.000000, -25.000000)">
+                <path d="M108.467332,0.107667822 L108.467332,687.900102 C523.58869,762.384295 856.009591,787.428003 1105.73004,763.031226 C1681.23524,706.806464 1789.7041,482.419288 2283.4019,482.404809 C2777.09971,482.39033 2709.59195,690.064545 2928.9604,789.932545 C3075.20603,856.511212 2990.65665,593.236253 2675.31225,0.107667822 L108.467332,0.107667822 Z" id="Mask-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.12"></path>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask-Copy-2" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.12" xlink:href="#path-3"></use>
+                <mask id="mask-7" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-5)" fill-rule="nonzero" xlink:href="#path-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>
