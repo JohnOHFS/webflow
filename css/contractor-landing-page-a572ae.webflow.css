@@ -4056,7 +4056,8 @@
 }
 
 .devise-form {
-  width: 50%;
+  width: 75%;
+  margin-left: 10px;
 }
 
 .social-media-login {
@@ -4386,6 +4387,34 @@
   font-family: Roboto, sans-serif;
   font-size: 16px;
   text-align: center;
+}
+
+.heading-62 {
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-weight: 500;
+}
+
+.text-field-10 {
+  color: #535353;
+}
+
+.text-field-11 {
+  font-family: Roboto, sans-serif;
+}
+
+.delete-account-button {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff4b4b;
+}
+
+.heading-63 {
+  margin-top: 40px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
@@ -4767,6 +4796,7 @@
   }
   .form-block-2 {
     width: 100%;
+    padding-bottom: 60px;
   }
   .text-block-11 {
     margin-right: 20px;
