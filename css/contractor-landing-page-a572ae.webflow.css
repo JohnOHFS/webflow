@@ -1777,8 +1777,8 @@
   position: sticky;
   top: 0px;
   z-index: 1;
-  padding: 20px;
-  background-color: #f4f4f4;
+  padding: 5px 20px;
+  background-color: transparent;
 }
 
 .nav-grid {
@@ -1830,7 +1830,10 @@
   margin-right: 0px;
   margin-left: 0px;
   padding: 10px 0px;
-  color: #444;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
   text-decoration: none;
 }
 
@@ -3850,6 +3853,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 50%;
+  height: 800px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4029,6 +4033,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -4417,6 +4422,117 @@
   font-weight: 500;
 }
 
+.home-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.contractor-text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.body-4 {
+  display: block;
+}
+
+.contractor-sign-up-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.link-5 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link-3 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link-4 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar-2 {
+  background-color: transparent;
+}
+
+.image-25 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form-area {
+  width: 80%;
+}
+
+.sign-up-text-area {
+  width: 80%;
+}
+
+.form-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 0px;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-body {
+  width: 80%;
+}
+
+.heading-64 {
+  margin-bottom: 0px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading-65 {
+  margin-top: 0px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 36px;
+}
+
+.submit-button-6 {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #1e87f0;
+  font-family: Roboto, sans-serif;
+}
+
+.form-block-5 {
+  width: auto;
+}
+
 @media screen and (max-width: 991px) {
   .brand.w--current {
     margin-left: -41px;
@@ -4756,6 +4872,9 @@
     width: 200px;
     margin-left: -162px;
   }
+  .other-sign-in {
+    margin-top: 10px;
+  }
   .devise-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4800,6 +4919,28 @@
   }
   .text-block-11 {
     margin-right: 20px;
+  }
+  .contractor-text {
+    margin-top: 100px;
+  }
+  .image-24 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .contractor-sign-up-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .icon-6 {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 30px;
+  }
+  .form-wrapper {
+    margin-left: 0px;
   }
 }
 
@@ -5504,10 +5645,12 @@
   }
   .homeowner {
     width: 100%;
+    height: 400px;
     padding-top: 0px;
   }
   .contractor {
     width: 100%;
+    padding-bottom: 100px;
   }
   .body-3 {
     -webkit-box-orient: vertical;
@@ -5550,6 +5693,13 @@
   }
   .text-field-9 {
     width: 120px;
+  }
+  .home-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -6574,6 +6724,8 @@
     margin-left: auto;
   }
   .top-line {
+    position: static;
+    margin-top: -108px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -6603,6 +6755,15 @@
   }
   .text-field-9 {
     width: 200px;
+  }
+  .contractor-text {
+    margin-left: 40px;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  .form-5 {
+    width: 100%;
   }
 }
 
