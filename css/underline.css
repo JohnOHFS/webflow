@@ -18,6 +18,10 @@ text-decoration: none;
 /*
 Improve readability when focused and also mouse hovered in all browsers.
 */
+.w-nav-link.w--current {
+  color: white;
+}
+
 a:active,
 	a:hover {
 	outline: 0;
