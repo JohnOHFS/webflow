@@ -2778,6 +2778,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: 10px;
+  padding-left: 5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2839,6 +2840,10 @@
   margin-right: 10px;
   font-family: 'Fa solid 900', sans-serif;
   color: red;
+}
+
+.company-address {
+  padding-left: 5px;
 }
 
 .company-profile-top-row {
@@ -7475,6 +7480,377 @@
   border-color: #bdbaba;
 }
 
+.contractor-directory-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contractor-directory {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.heading-103 {
+  margin-bottom: 40px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.contractor-directory-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.contractor-directory-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contractor-directory-results {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contractor-directory-filter-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.heading-104 {
+  width: 100%;
+  padding-left: 10px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-weight: 400;
+}
+
+.directory-skills-box {
+  width: 100%;
+}
+
+.heading-105 {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.checkbox-label-8 {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.checkbox-field-7 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.directory-distance-box {
+  width: 100%;
+}
+
+.text-field-26 {
+  width: 90%;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 18px;
+}
+
+.form-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.directory-radio-buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.radio-button-field-4 {
+  margin-left: 20px;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 18px;
+}
+
+.submit-button-11 {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #1e87f0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.contractory-directory-contractor-card {
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.cd-card-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: Roboto, sans-serif;
+}
+
+.heading-106 {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+  color: #535353;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.heading-107 {
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 20px;
+  color: #535353;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.paragraph-37 {
+  width: 100%;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.cd-profile-link {
+  width: 100%;
+  padding-bottom: 20px;
+  color: #535353;
+  font-size: 18px;
+  text-align: center;
+}
+
+.italic-text {
+  color: #1e87f0;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pp-main-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.pp-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.pp-top-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #1e87f0;
+  font-family: Roboto, sans-serif;
+}
+
+.image-32 {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.heading-108 {
+  max-width: 100%;
+  margin-bottom: 0px;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.pp-company-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.heading-109 {
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.pp-bottom-card {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.pp-middle-card {
+  width: 100%;
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  color: #535353;
+  font-size: 18px;
+}
+
+.paragraph-38 {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .brand.w--current {
     margin-left: -41px;
@@ -8413,6 +8789,30 @@
 
   .heading-102 {
     font-style: italic;
+  }
+
+  .contractor-directory-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .contractor-directory-left {
+    width: 100%;
+  }
+
+  .contractor-directory-results {
+    width: 100%;
+  }
+
+  .heading-108 {
+    text-align: right;
   }
 }
 
@@ -9595,6 +9995,26 @@
 
   .question-form-box {
     right: -6px;
+  }
+
+  .contractor-directory-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .contractor-directory-left {
+    width: 100%;
+  }
+
+  .contractor-directory-results {
+    width: 100%;
   }
 }
 
@@ -11353,6 +11773,34 @@
 
   .estimate-form-box {
     top: 29px;
+  }
+
+  .heading-103 {
+    text-align: center;
+  }
+
+  .pp-top-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .image-32 {
+    margin-left: 0px;
+  }
+
+  .heading-108 {
+    padding-right: 5px;
+  }
+
+  .heading-109 {
+    padding-right: 5px;
   }
 }
 

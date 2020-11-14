@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Oct 20 2020 06:35:05 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Nov 12 2020 08:18:47 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f87dd65f91bb345892a0a8e" data-wf-site="5e99e151b2f21c10543a26e2">
 <head>
   <meta charset="utf-8">
@@ -21,8 +20,15 @@
 </head>
 <body>
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar-3 w-nav">
-    <div class="w-container"><a href="#" class="brand-2 w-nav-brand"><img src="../images/VateIcon.png" loading="lazy" width="30" height="30" srcset="../images/VateIcon-p-500.png 500w, ../images/VateIcon-p-800.png 800w, ../images/VateIcon.png 1024w" sizes="30px" alt="" class="image-26"><h4 class="heading-68">Vate</h4></a>
-      <nav role="navigation" class="nav-menu-3 w-nav-menu"><a href="#" class="nav-link-5 w-nav-link">Dashboard</a><a href="#" class="nav-link-6 w-nav-link">Account</a><a href="#" class="nav-link-7 w-nav-link">Logout</a></nav>
+    <div class="w-container">
+      <a href="#" class="brand-2 w-nav-brand"><img src="../images/VateIcon.png" loading="lazy" width="30" height="30" srcset="../images/VateIcon-p-500.png 500w, ../images/VateIcon-p-800.png 800w, ../images/VateIcon.png 1024w" sizes="30px" alt="" class="image-26">
+        <h4 class="heading-68">Vate</h4>
+      </a>
+      <nav role="navigation" class="nav-menu-3 w-nav-menu">
+        <a href="#" class="nav-link-5 w-nav-link">Dashboard</a>
+        <a href="#" class="nav-link-6 w-nav-link">Account</a>
+        <a href="#" class="nav-link-7 w-nav-link">Logout</a>
+      </nav>
       <div class="menu-button-2 w-nav-button">
         <div class="icon-7 w-icon-nav-menu"></div>
       </div>
@@ -45,17 +51,14 @@
         <h3 class="heading-85">Estimates</h3>
       </div>
       <div class="horizontal-line-div"></div>
-
       <div class="main-project-bottom">
         <div class="project-estimate">
-
           <div class="project-estimate-row">
             <h3 class="heading-87">Only Vate subscribers can make estimates.<br></h3>
             <div class="subcription-button-block">
               <a href="#" class="button-28 w-button">Purchase a Subscription</a>
             </div>
           </div>
-
           <div class="project-estimate-row">
             <h3 class="heading-87">You haven&#x27;t made an estimate yet.<br></h3>
             <div class="subcription-button-block">
@@ -66,47 +69,54 @@
             <h3 class="heading-87">There are no estimates for this project yet.<br></h3>
           </div>
           <div class="project-estimate-row">
-
             <div class="estimate-input">
               <h4 class="heading-90">Enter your estimate ($): </h4>
               <div class="w-form">
-                <input type="text" class="text-field-24 w-input" maxlength="256" name="name" data-name="Name" placeholder="Ex. $5,000.00" id="name">
+                <form id="email-form" name="email-form" data-name="Email Form"><input type="text" class="text-field-24 w-input" maxlength="256" name="name" data-name="Name" placeholder="Ex. $5,000.00" id="name"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button"></form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
               </div>
             </div>
-
             <div class="estimate-input">
               <h4 class="heading-90">Provide additional details: </h4>
               <div class="w-form">
-                <form id="email-form" name="email-form" data-name="Email Form">
-                  <textarea placeholder="Enter a more complete description of your estimate." maxlength="5000" id="field" name="field" class="textarea-3 w-input">
-                    
-                  </textarea>
-                  <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button">
-                </form>
+                <form id="email-form" name="email-form" data-name="Email Form"><textarea placeholder="Enter a more complete description of your estimate." maxlength="5000" id="field" name="field" class="textarea-3 w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button"></form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
               </div>
             </div>
-
             <div class="estimate-input">
               <div class="w-form">
-                  <label class="w-checkbox checkbox-field-6">
-                    <input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input checkbox">
-                    <span class="checkbox-label-7 w-form-label">
-                      <strong class="bold-text">I understand that All estimates must include all estimated labor, material, permit fees, taxes, and all anticipated costs to consumer.
-                      </strong>
-                    </span>
-                  </label>
+                <form id="email-form" name="email-form" data-name="Email Form"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button"><label class="w-checkbox checkbox-field-6"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input checkbox"><span class="checkbox-label-7 w-form-label"><strong class="bold-text">I understand that All estimates must include all estimated labor, material, permit fees, taxes, and all anticipated costs to consumer.</strong></span></label></form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
               </div>
             </div>
-
             <div class="estimate-input">
               <div class="w-form">
-                <form id="email-form" name="email-form" data-name="Email Form">
-                  <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button">
-                </form>
+                <form id="email-form" name="email-form" data-name="Email Form"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-10 w-button"></form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
               </div>
-              <a href="#" class="button-29 w-button">Submit Estimate</a></div>
+              <a href="#" class="button-29 w-button">Submit Estimate</a>
+            </div>
           </div>
-
           <div class="project-estimate-row">
             <div class="project-estimate-wrapper">
               <div class="project-estimate-div">
@@ -122,7 +132,6 @@
                   <p class="paragraph-34">Submitted By</p>
                   <h5 class="heading-93">A&amp;A Remodelers and other Junk and Other</h5>
                 </div>
-                
                 <div class="contractor-rating-div">
                   <p class="paragraph-34">Rating</p>
                   <div class="div-block-19">
@@ -130,7 +139,90 @@
                     <p class="paragraph-35">4/5</p>
                   </div>
                 </div>
-
+                <div class="estimate-status-div">
+                  <p class="paragraph-34">Status</p>
+                  <h5 class="heading-93">Active</h5>
+                </div>
+                <div class="view-estimate-div">
+                  <a href="#" class="button-30 w-button">View Estimate</a>
+                  <div class="edit-delete-div">
+                    <h3 class="heading-101"></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="project-estimate-description"></div>
+            </div>
+          </div>
+          <div class="project-estimate-row">
+            <div class="project-estimate-wrapper">
+              <div class="project-estimate-div">
+                <div class="estimate-div">
+                  <p class="paragraph-34">Estimate</p>
+                  <h5 class="heading-93">$5,000.00</h5>
+                </div>
+                <div class="submitted-div">
+                  <p class="paragraph-34">Submitted</p>
+                  <h5 class="heading-93">Today</h5>
+                </div>
+                <div class="submitted-by-div">
+                  <p class="paragraph-34">Submitted By</p>
+                  <h5 class="heading-93">A&amp;A Remodelers</h5>
+                </div>
+                <div class="contractor-rating-div">
+                  <p class="paragraph-34">Rating</p>
+                  <div class="div-block-19">
+                    <h5 class="heading-94"></h5>
+                    <p class="paragraph-35">4/5</p>
+                  </div>
+                </div>
+                <div class="estimate-status-div">
+                  <p class="paragraph-34">Status</p>
+                  <h5 class="heading-93">Active</h5>
+                </div>
+                <div class="view-estimate-div">
+                  <a href="#" class="button-30 w-button">View Estimate</a>
+                  <div class="edit-delete-div">
+                    <h3 class="heading-101"></h3>
+                  </div>
+                  <div class="estimate-click-object">
+                    <div class="estimate-form-box">
+                      <h4 class="heading-98">Edit</h4>
+                      <h4 class="heading-98">Delete</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-description">
+              <p class="paragraph-36">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+            <div class="project-like-dislike-row">
+              <a href="#" class="button-19 w-button">Button Text</a>
+              <a href="#" class="delete-button w-button">Button Text</a>
+            </div>
+          </div>
+          <div class="project-estimate-row">
+            <div class="project-estimate-wrapper">
+              <div class="project-estimate-div">
+                <div class="estimate-div">
+                  <p class="paragraph-34">Estimate</p>
+                  <h5 class="heading-93">$5,000.00</h5>
+                </div>
+                <div class="submitted-div">
+                  <p class="paragraph-34">Submitted</p>
+                  <h5 class="heading-93">Today</h5>
+                </div>
+                <div class="submitted-by-div">
+                  <p class="paragraph-34">Submitted By</p>
+                  <h5 class="heading-93">A&amp;A Remodelers</h5>
+                </div>
+                <div class="contractor-rating-div">
+                  <p class="paragraph-34">Rating</p>
+                  <div class="div-block-19">
+                    <h5 class="heading-94"></h5>
+                    <p class="paragraph-35">4/5</p>
+                  </div>
+                </div>
                 <div class="estimate-status-div">
                   <p class="paragraph-34">Status</p>
                   <h5 class="heading-93">Active</h5>
@@ -139,133 +231,90 @@
                   <a href="#" class="button-30 w-button">View Estimate</a>
                 </div>
               </div>
-              <div class="project-estimate-description"></div>
             </div>
           </div>
+          <div class="project-estimate-row">
+            <div class="project-estimate-wrapper">
+              <div class="project-estimate-div">
+                <div class="estimate-div">
+                  <p class="paragraph-34">Estimate</p>
+                  <h5 class="heading-93">$5,000.00</h5>
+                </div>
+                <div class="submitted-div">
+                  <p class="paragraph-34">Submitted</p>
+                  <h5 class="heading-93">Today</h5>
+                </div>
+                <div class="submitted-by-div">
+                  <p class="paragraph-34">Submitted By</p>
+                  <h5 class="heading-93">A&amp;A Remodelers</h5>
+                </div>
+                <div class="contractor-rating-div">
+                  <p class="paragraph-34">Rating</p>
+                  <div class="div-block-19">
+                    <h5 class="heading-94"></h5>
+                    <p class="paragraph-35">4/5</p>
+                  </div>
+                </div>
+                <div class="estimate-status-div">
+                  <p class="paragraph-34">Status</p>
+                  <h5 class="heading-93">Active</h5>
+                </div>
+                <div class="view-estimate-div">
+                  <a href="#" class="button-30 w-button">View Estimate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-estimate-row">
+            <div class="invite-row">
 
-          <div class="project-estimate-row">
-            <div class="project-estimate-wrapper">
-              <div class="project-estimate-div">
-                <div class="estimate-div">
-                  <p class="paragraph-34">Estimate</p>
-                  <h5 class="heading-93">$5,000.00</h5>
-                </div>
-                <div class="submitted-div">
-                  <p class="paragraph-34">Submitted</p>
-                  <h5 class="heading-93">Today</h5>
-                </div>
-                <div class="submitted-by-div">
-                  <p class="paragraph-34">Submitted By</p>
-                  <h5 class="heading-93">A&amp;A Remodelers</h5>
-                </div>
-                <div class="contractor-rating-div">
-                  <p class="paragraph-34">Rating</p>
-                  <div class="div-block-19">
-                    <h5 class="heading-94"></h5>
-                    <p class="paragraph-35">4/5</p>
+              <div class="invite-input-area">
+                <div class="form-block-9 w-form">
+                  <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="form-9"><input type="email" class="text-field-25 w-input" maxlength="256" name="email" data-name="Email" placeholder="Type the company name here..." id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="w-button"></form>
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
                   </div>
                 </div>
-                <div class="estimate-status-div">
-                  <p class="paragraph-34">Status</p>
-                  <h5 class="heading-93">Active</h5>
+              </div>
+              
+              <div class="invite-results">
+                <h4 class="heading-102">Select a contractor from the results below to send an invite</h4>
+                <div class="invite-results-box">
+                  <div class="invite-result-row">
+                    <div class="invite-result-text">This is some text inside of a div block.</div>
+                  </div>
+                  <div class="invite-result-row">
+                    <div class="invite-result-text">This is some text inside of a div block.</div>
+                  </div>
+                  <div class="invite-result-row">
+                    <div class="invite-result-text invite-result-text-hover">This is some text inside of a div block.</div>
+                  </div>
+                  <div class="invite-result-row">
+                    <div class="invite-result-text">This is some text inside of a div block.</div>
+                  </div>
+                  <div class="invite-result-row">
+                    <div class="invite-result-text invite-result-text-hover">This is some text inside of a div block.</div>
+                  </div>
                 </div>
-                <div class="view-estimate-div"><a href="#" class="button-30 w-button">View Estimate</a></div>
               </div>
             </div>
           </div>
           <div class="project-estimate-row">
-            <div class="project-estimate-wrapper">
-              <div class="project-estimate-div">
-                <div class="estimate-div">
-                  <p class="paragraph-34">Estimate</p>
-                  <h5 class="heading-93">$5,000.00</h5>
-                </div>
-                <div class="submitted-div">
-                  <p class="paragraph-34">Submitted</p>
-                  <h5 class="heading-93">Today</h5>
-                </div>
-                <div class="submitted-by-div">
-                  <p class="paragraph-34">Submitted By</p>
-                  <h5 class="heading-93">A&amp;A Remodelers</h5>
-                </div>
-                <div class="contractor-rating-div">
-                  <p class="paragraph-34">Rating</p>
-                  <div class="div-block-19">
-                    <h5 class="heading-94"></h5>
-                    <p class="paragraph-35">4/5</p>
-                  </div>
-                </div>
-                <div class="estimate-status-div">
-                  <p class="paragraph-34">Status</p>
-                  <h5 class="heading-93">Active</h5>
-                </div>
-                <div class="view-estimate-div"><a href="#" class="button-30 w-button">View Estimate</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="project-estimate-row">
-            <div class="project-estimate-wrapper">
-              <div class="project-estimate-div">
-                <div class="estimate-div">
-                  <p class="paragraph-34">Estimate</p>
-                  <h5 class="heading-93">$5,000.00</h5>
-                </div>
-                <div class="submitted-div">
-                  <p class="paragraph-34">Submitted</p>
-                  <h5 class="heading-93">Today</h5>
-                </div>
-                <div class="submitted-by-div">
-                  <p class="paragraph-34">Submitted By</p>
-                  <h5 class="heading-93">A&amp;A Remodelers</h5>
-                </div>
-                <div class="contractor-rating-div">
-                  <p class="paragraph-34">Rating</p>
-                  <div class="div-block-19">
-                    <h5 class="heading-94"></h5>
-                    <p class="paragraph-35">4/5</p>
-                  </div>
-                </div>
-                <div class="estimate-status-div">
-                  <p class="paragraph-34">Status</p>
-                  <h5 class="heading-93">Active</h5>
-                </div>
-                <div class="view-estimate-div"><a href="#" class="button-30 w-button">View Estimate</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="project-estimate-row">
-            <div class="project-estimate-wrapper">
-              <div class="project-estimate-div">
-                <div class="estimate-div">
-                  <p class="paragraph-34">Estimate</p>
-                  <h5 class="heading-93">$5,000.00</h5>
-                </div>
-                <div class="submitted-div">
-                  <p class="paragraph-34">Submitted</p>
-                  <h5 class="heading-93">Today</h5>
-                </div>
-                <div class="submitted-by-div">
-                  <p class="paragraph-34">Submitted By</p>
-                  <h5 class="heading-93">A&amp;A Remodelers</h5>
-                </div>
-                <div class="contractor-rating-div">
-                  <p class="paragraph-34">Rating</p>
-                  <div class="div-block-19">
-                    <h5 class="heading-94"></h5>
-                    <p class="paragraph-35">4/5</p>
-                  </div>
-                </div>
-                <div class="estimate-status-div">
-                  <p class="paragraph-34">Status</p>
-                  <h5 class="heading-93">Active</h5>
-                </div>
-                <div class="view-estimate-div"><a href="#" class="button-30 w-button">View Estimate</a></div>
-              </div>
+            <div class="invited">
+              <h3 class="heading-99">Invite Sent to MikePro</h3>
+              <h3 class="heading-99">Status: Sent</h3>
             </div>
           </div>
         </div>
       </div>
-      <div class="project-show-button-row"><a href="#" class="button-19 w-button">Button Text</a><a href="#" class="delete-button w-button">Button Text</a><a href="#" class="button-19 w-button">Button Text</a></div>
+      <div class="project-show-button-row">
+        <a href="#" class="button-19 w-button">Button Text</a>
+        <a href="#" class="delete-button w-button">Button Text</a>
+        <a href="#" class="button-19 w-button">Button Text</a>
+      </div>
     </div>
     <div class="form-bottom-pad-div"></div>
   </div>
